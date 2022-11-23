@@ -7,5 +7,5 @@
 <meta property="og:title" content="Grégoire Gamichon" />
 <meta property="og:description" content="Graphic/Motion designer sympa !" />
   
-      <link rel="shortcut icon" type="image/png" href="/src/routes/img/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
 </head>
