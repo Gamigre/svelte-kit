@@ -1,4 +1,4 @@
-<div id="cv"><a style="color:indianred; text-decoration:underline" href="Gregoire_Gamichon_CV_2021.pdf" download="Gregoire_Gamichon_CV_2021.pdf">→ pdf ← </a><pre>
+<div id="cv"><a style="color:indianred; text-decoration:underline" href="../Gregoire_Gamichon_CV_2022.pdf" download="../Gregoire_Gamichon_CV_2022.pdf">→ pdf ← </a><pre>
                  __                 _
    ______       /_/                (_)                  
   / ____/_____ ___   ____ _ ____   __ _____ ___                
