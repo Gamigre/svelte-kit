@@ -1,0 +1,212 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-a0e6f679.css"
+    ]
+  },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/bocalwaves/+page.svelte": {
+    "file": "entries/pages/projets/bocalwaves/_page.svelte.js",
+    "src": "src/routes/projets/bocalwaves/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/confinement/+page.svelte": {
+    "file": "entries/pages/projets/confinement/_page.svelte.js",
+    "src": "src/routes/projets/confinement/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/culturebox/+page.svelte": {
+    "file": "entries/pages/projets/culturebox/_page.svelte.js",
+    "src": "src/routes/projets/culturebox/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/fonte_obscur/+page.svelte": {
+    "file": "entries/pages/projets/fonte_obscur/_page.svelte.js",
+    "src": "src/routes/projets/fonte_obscur/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-3e5af5cb.css"
+    ]
+  },
+  "src/routes/projets/ia_nation/+page.svelte": {
+    "file": "entries/pages/projets/ia_nation/_page.svelte.js",
+    "src": "src/routes/projets/ia_nation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/make/+page.svelte": {
+    "file": "entries/pages/projets/make/_page.svelte.js",
+    "src": "src/routes/projets/make/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/memoire/+page.svelte": {
+    "file": "entries/pages/projets/memoire/_page.svelte.js",
+    "src": "src/routes/projets/memoire/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-855309c5.css"
+    ]
+  },
+  "src/routes/projets/musee_dali/+page.svelte": {
+    "file": "entries/pages/projets/musee_dali/_page.svelte.js",
+    "src": "src/routes/projets/musee_dali/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/naissance_des_pieuvres/+page.svelte": {
+    "file": "entries/pages/projets/naissance_des_pieuvres/_page.svelte.js",
+    "src": "src/routes/projets/naissance_des_pieuvres/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-3e5af5cb.css"
+    ]
+  },
+  "src/routes/projets/obscure_process/+page.svelte": {
+    "file": "entries/pages/projets/obscure_process/_page.svelte.js",
+    "src": "src/routes/projets/obscure_process/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/peer_captation/+page.svelte": {
+    "file": "entries/pages/projets/peer_captation/_page.svelte.js",
+    "src": "src/routes/projets/peer_captation/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/pif_gadget/+page.svelte": {
+    "file": "entries/pages/projets/pif_gadget/_page.svelte.js",
+    "src": "src/routes/projets/pif_gadget/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/projet2 copy 14/+page.svelte": {
+    "file": "entries/pages/projets/projet2 copy 14/_page.svelte.js",
+    "src": "src/routes/projets/projet2 copy 14/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-3e5af5cb.css"
+    ]
+  },
+  "src/routes/projets/projet2 copy 15/+page.svelte": {
+    "file": "entries/pages/projets/projet2 copy 15/_page.svelte.js",
+    "src": "src/routes/projets/projet2 copy 15/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-3e5af5cb.css"
+    ]
+  },
+  "src/routes/projets/remanences/+page.svelte": {
+    "file": "entries/pages/projets/remanences/_page.svelte.js",
+    "src": "src/routes/projets/remanences/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/rosae/+page.svelte": {
+    "file": "entries/pages/projets/rosae/_page.svelte.js",
+    "src": "src/routes/projets/rosae/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/projets/volkswagen/+page.svelte": {
+    "file": "entries/pages/projets/volkswagen/_page.svelte.js",
+    "src": "src/routes/projets/volkswagen/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}

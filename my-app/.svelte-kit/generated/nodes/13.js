@@ -1,0 +1,1 @@
+export { default as component } from "../../../src/routes/projets/obscure_process/+page.svelte";

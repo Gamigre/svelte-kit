@@ -1,0 +1,1 @@
+export { default as component } from "../../../src/routes/projets/peer_captation/+page.svelte";

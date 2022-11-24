@@ -1,0 +1,82 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/about": [
+		"src/routes/+layout.js"
+	],
+	"/projets/projet1": [],
+	"/projets/projet1 copy": [],
+	"/projets/projet2": [],
+	"/projets/projet2 copy": [],
+	"/projets/projet2 copy 2": [],
+	"/projets/projet2 copy 3": [],
+	"/projets/projet2 copy 3/projet2": [],
+	"/projets/projet2 copy 3/projet2/projet2": [],
+	"/projets/projet2 copy 3/projet2/projet2/projet2": [],
+	"/projets/projet2 copy 3/projet2/projet2/projet2/projet2": [],
+	"/projets/projet2 copy 3/projet2/projet2/projet2/projet2/projet2": [],
+	"/projets/projet2 copy 4": [],
+	"/projets/projet2 copy 5": [],
+	"/projets/projet2 copy 6": [],
+	"/projets/projet2 copy 7": [],
+	"/projets/projet2 copy 8": [],
+	"/projets/projet2 copy 9": [],
+	"/projets/projet2 copy 9/projet2": [],
+	"/projets/projet2 copy 10": [],
+	"/projets/projet2 copy 11": [],
+	"/projets/projet2 copy 12": [],
+	"/projets/projet2 copy 13": [],
+	"/projets/projet2 copy 14": [
+		"src/routes/+layout.js"
+	],
+	"/projets/projet2 copy 15": [
+		"src/routes/+layout.js"
+	],
+	"/projets/remanences": [
+		"src/routes/+layout.js"
+	],
+	"/projets/bocalwaves": [
+		"src/routes/+layout.js"
+	],
+	"/projets/culturebox": [
+		"src/routes/+layout.js"
+	],
+	"/projets/memoire": [
+		"src/routes/+layout.js"
+	],
+	"/projets/volkswagen": [
+		"src/routes/+layout.js"
+	],
+	"/projets/naissance_des_pieuvres": [
+		"src/routes/+layout.js"
+	],
+	"/projets/musee_dali": [
+		"src/routes/+layout.js"
+	],
+	"/projets/confinement": [
+		"src/routes/+layout.js"
+	],
+	"/projets/ia_nation": [
+		"src/routes/+layout.js"
+	],
+	"/projets/obscure_process": [
+		"src/routes/+layout.js"
+	],
+	"/projets/make": [
+		"src/routes/+layout.js"
+	],
+	"/projets/pif_gadget": [
+		"src/routes/+layout.js"
+	],
+	"/projets/peer_captation": [
+		"src/routes/+layout.js"
+	],
+	"/projets/fonte_obscur": [
+		"src/routes/+layout.js"
+	],
+	"/projets/rosae": [
+		"src/routes/+layout.js"
+	]
+}

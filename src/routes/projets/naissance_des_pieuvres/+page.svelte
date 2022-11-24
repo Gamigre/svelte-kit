@@ -18,8 +18,5 @@
 </div>
 
 <style>
-:global(a){
-  border:0px solid white
-}
-:global(a#p2){ border:10px solid red;}
+
   </style>

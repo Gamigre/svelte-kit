@@ -1,0 +1,1 @@
+export { default as component } from "../../../src/routes/projets/projet2 copy 14/+page.svelte";

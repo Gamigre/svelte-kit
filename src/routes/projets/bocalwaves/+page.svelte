@@ -1,6 +1,17 @@
+<script lang="ts">
+    import VideoPlayer from 'svelte-video-player';
+    let timeDisplay = true;
+    let loop = true;
+  </script>
+  
+ 
 <div class="column" id="showcase">
-    
-    <img class="showcase" id="showcase_picture" src="https://gregoire.broadcastingfuture.online/img/carreau_04.jpg">
+    <div id="showcase_picture_wrapper" style="max-width: 80vh; margin: 0 auto;">
+        <VideoPlayer poster="../img/bocalwaves_thumb.jpg" source="../vid/acid_25.mp4" width="10" height="10" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
+        <VideoPlayer poster="../img/bocalwaves_thumb.jpg" source="../vid/acid_2_25.mp4" width="10" height="10" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
+        <VideoPlayer poster="../img/bocalwaves_thumb.jpg" source="../vid/bocalwaves_3.mp4" width="10" height="10" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
+
+</div>
 
     <div class="showcase" id="showcase_text">
         <h2 id="showcase_title">Bocalwaves (2020--)</h2>
