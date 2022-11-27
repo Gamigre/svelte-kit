@@ -190,6 +190,8 @@ gap:2em;
 justify-content:space-evenly;
 padding-bottom:1em;
 padding-right:1em;
+scrollbar-color: linen snow;
+  scrollbar-width:thin;
   }
 
   :global(iframe#showcase_picture_wrapper){
@@ -220,17 +222,18 @@ padding-right:1em;
         border: var(--border_test) steelblue;
   }
 
-  :global(#showcase_desc_wrapper){
-    border: var(--border_test) red;
-  overflow-y: scroll;
- max-height:20vh;
- margin-top: 1em;
+:global(#showcase_desc_wrapper){
+border: var(--border_test) red;
+overflow-y: scroll;
+max-height:20vh;
+margin-top: 1em;
  margin-bottom:2em;
  padding-left: 1%;
  padding-right: 1%;
  border-left: 1px solid black;
  scrollbar-color: linen snow;
   scrollbar-width:thin;
+  padding-right: 20%;
  /** width: available;; /*modify to suit
   max-width:69%;
   height: 12vh; /*modify to suit
@@ -240,10 +243,11 @@ padding-right:1em;
   }
 
   :global(#showcase_desc){
-    column-width: 50%;
-    column-count: 2;
-    column-gap: 3%;
+   /* column-width: 50%;
+    column-count: 1;
+    column-gap: 3%;*/
     width:100%;
+    
     border: var(--border_test) lime;
   }
 
@@ -272,8 +276,8 @@ font-family: monospace;
   padding-bottom:10vh;
   padding-left:2vw;
   padding-right:2vw;
-  
 }
+
 .column {
   height:99vh;
     border: var(--border_test) grey
@@ -313,6 +317,7 @@ border:var(--border_test) indigo}
 }
 
 #about_content{
+  margin-top: 3ex;
   position:relative;
   width:100%;
   height:auto;
@@ -344,6 +349,7 @@ border:var(--border_test) indigo}
 }
 .projects{
   padding:1px;
+  
 }
 
 /*#projects_grid{
@@ -356,9 +362,9 @@ border:var(--border_test) indigo}
   position:relative;
     border: var(--border_test) indianred;
     transition: all ease-in-out .1s;
-  margin-bottom:1em;
-    
+  margin-bottom:1em;    
 }
+
 .projects_pic_container{
   padding:1px;
   border: var(--border_test) seagreen;
@@ -368,15 +374,16 @@ border:var(--border_test) indigo}
 .projects_pic{
   width:100%; height:100%;
   border-radius: 5%;
-  border:2px solid linen;
-  object-fit:scale-down;
+  object-fit:contain;
   object-position:0 0; 
 }
 
 .project_wrapper:hover{
-  transform: scale(1.1);
+  transform: scale(1.07);
   transition: all ease-in-out .1s;
+  z-index:10;
 }
+
 .projects_pic_name{
   position:relative;
   text-decoration: none; 
