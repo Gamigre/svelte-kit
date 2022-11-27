@@ -7,8 +7,8 @@
 <div class="column" id="showcase">
 
   <div class="column" id="showcase">
-    <div id="showcase_picture_wrapper" style="max-width:40vh; margin: 0 auto;">
-        <VideoPlayer poster="../img/dali_thumb.jpg" source="static\vid\persistance_dali.mp4" width="1080" height="1920" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
+    <div id="showcase_picture_wrapper">
+        <VideoPlayer poster="../img/dali_thumb.jpg" source="../vid/persistance_dali.mp4" width="1080" height="1920" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
         </div>
 
 </div>
@@ -28,7 +28,8 @@
 
 <style>
 #showcase_picture_wrapper{
-  width:100vw;
-  max-width:100%;
+  margin: 0 auto;
+  height:80vh;
+  width:22vw;
 }
   </style>

@@ -1,6 +1,16 @@
+<script lang="ts">
+    import VideoPlayer from 'svelte-video-player';
+    let timeDisplay = true;
+    let loop = true;
+  </script>
+  
+ 
 <div class="column" id="showcase">
-    
-    <img class="showcase" id="showcase_picture" src="https://gregoire.broadcastingfuture.online/img/carreau_04.jpg">
+    <div id="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
+
+        <VideoPlayer poster="../img/confinement_thumb.jpg" source="../vid/Projet_final_gobelins_corrigé_6s_crf25.mp4" color="tomato" controlsHeight="3em" {timeDisplay} {loop}/>
+
+</div>
 
     <div class="showcase" id="showcase_text">
         <h2 id="showcase_title">À travers le confinement (2020) </h2>

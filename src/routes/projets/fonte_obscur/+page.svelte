@@ -1,6 +1,6 @@
 <div class="column" id="showcase">
     
-    <img class="showcase" id="showcase_picture" src="../img/obscur.jpg">
+    <img class="showcase" id="showcase_picture" src="../img/obscur.jpg" alt="Specimen de la typo">
 
     <div class="showcase" id="showcase_text">
         <h2 id="showcase_title">Fonte Obscur (2019)</h2>
@@ -14,8 +14,6 @@
 </div>
 
 <style>
-:global(a){
-  border:0px solid white
-}
-:global(a#p2){ border:10px solid red;}
+#showcase_picture{margin-left: auto;
+margin-right:auto;}
   </style>
