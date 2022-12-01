@@ -1,6 +1,17 @@
+<script lang="ts">
+  import VideoPlayer from 'svelte-video-player';
+  let timeDisplay = true;
+  let loop = true;
+</script>
+
+
 <div class="column" id="showcase">
-    
-    <img class="showcase" id="showcase_picture" src="https://gregoire.broadcastingfuture.online/img/carreau_04.jpg">
+  <div id="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
+      <VideoPlayer poster="../vid/ianation-thumb.jpg" source="../vid/ianation_crf28.mp4" color="tomato" controlsHeight="3em" {timeDisplay} {loop}/>
+</div>
+
+
+
 
     <div class="showcase" id="showcase_text">
         <h2 id="showcase_title">I.A. Nation (2018)</h2>

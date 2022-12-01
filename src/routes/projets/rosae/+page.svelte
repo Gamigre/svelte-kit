@@ -1,9 +1,9 @@
 <div class="column" id="showcase">
     <div id="showcase_picture_wrapper">
-    <img class="showcase" id="showcase_picture" src="../img/rosae_slide_1.jpg" alt="Une rose glitchée, modifiée avec un logiciel de 3D">
-    <img class="showcase" id="showcase_picture" src="../img/rosae_slide_2.jpg" alt="gros plan sur les textures de la rose">
-    <img class="showcase" id="showcase_picture" src="../img/rosae_slide_3.jpg" alt="gros plan sur les textures de la rose">
-    <img class="showcase" id="showcase_picture" src="../img/rosae_slide_4.jpg" alt="gros plan sur les textures de la rose">
+    <img class="showcase showcase_picture" src="../img/rosae_slide_1.jpg" alt="Une rose glitchée, modifiée avec un logiciel de 3D">
+    <img class="showcase showcase_picture" src="../img/rosae_slide_2.jpg" alt="gros plan sur les textures de la rose">
+    <img class="showcase showcase_picture" src="../img/rosae_slide_3.jpg" alt="gros plan sur les textures de la rose">
+    <img class="showcase showcase_picture" src="../img/rosae_slide_4.jpg" alt="gros plan sur les textures de la rose">
     
   </div>
     <div class="showcase" id="showcase_text">

@@ -15,20 +15,25 @@
 
             <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique</i></div>
           </a>
-            <p class="about" id="about_content">Bonjour ! Je suis Grégoire Gamichon, je suis designer graphique multimédia. 
+
+          <details open>
+            <summary> Bonjour&thinsp;!</summary>
+            <p class="about" id="about_content">Je suis Grégoire Gamichon, je suis designer graphique multimédia.<br>
               Mon travail se construit autour de la recherche d'une multitude de processus créatifs
                allant des outils conventionels de design graphique au creative coding en passant 
                par l'animation, la 3D, l'illustration, les outils de prototypage rapide, 
-               la céramique, etc. Je suis depuis déjà bien longtemps passionné par l'image, le son, la vidéo et toutes les techniques de création qui les entourent.<br><br>Toujours à la recherche de nouvelles méthodes pour refaçonner le monde à ma manière, vous pouvez compter sur moi pour vous aider à trouver de quoi faire cligner vos mirettes. <br>N'hésitez pas à m'envoyer un <a style="color:indianred; text-decoration:underline" href="mailto:g.gamichon@gmail.com">mail</a> !</p>
+               la céramique, etc. Je suis depuis déjà bien longtemps passionné par l'image, le son, la vidéo et toutes les techniques de création qui les entourent
+               <br><br>Toujours à la recherche de nouvelles méthodes pour refaçonner le monde à ma manière, vous pouvez compter sur moi pour vous aider à trouver de quoi faire cligner vos mirettes. <br>N'hésitez pas à m'envoyer un <a style="color:indianred; text-decoration:underline" href="mailto:g.gamichon@gmail.com">mail</a> &#8239;!</p>
     
     
             <div class="about" id="about_contact">
-              <a style="color:indianred;" href="/cv">cv<span style="opacity:0">cliquez ici !</span>  </a> <br>
+              <a style="color:indianred;" href="/cv">cv<span style="opacity:0">ici !</span>  </a> <br>
               <a style="color:indianred;" href="mailto:g.gamichon@gmail.com">g.gamichon@gmail.com</a><br>
               <a style="color:indianred;"  href="https://twitter.com/Gamigre" target="_blank" rel="noopener noreferrer">twitter</a> <br>
               <a style="color:indianred;"  href="https://instagr.am/Gamigre" target="_blank" rel="noopener noreferrer">instagram</a>
                 
             </div>
+      </details>
         </div>
         
     
@@ -78,7 +83,7 @@
       <a id="p6" href="/projets/naissance_des_pieuvres">
         <div class="project_wrapper">
         <div class="projects_pic_container"  >
-            <img class="projects_pic" src="/img/vw_thumb.jpg" alt="Miniature représentant une frame du générique du filme Naissance des Pieuvres"> 
+            <img class="projects_pic" src="/img/ndp_thumb.jpg" alt="Miniature représentant une frame du générique du film Naissance des Pieuvres"> 
         </div>
         <span class="projects_pic_name" >Naissance des pieuvres</span>
       </div></a>
@@ -174,6 +179,7 @@
   flex-direction: column;
   justify-content: space-between;
     width:available;
+    width: 100%;
     display:table-cell;
     vertical-align: bottom; 
     border: var(--border_test) brown;
@@ -193,15 +199,17 @@ padding-right:1em;
 scrollbar-color: linen snow;
   scrollbar-width:thin;
   }
-
+  
+/*
   :global(iframe#showcase_picture_wrapper){
     aspect-ratio: 16 / 9;
   width: 100%;
   }
+  */
 
-  :global(img#showcase_picture){
+  :global(img.showcase_picture){
     max-width:100%;
-  max-height:80vh;
+  max-height:75vh;
     object-fit:contains;
   border-radius: 1vw;
   scrollbar-color: linen snow;
@@ -214,6 +222,7 @@ scrollbar-color: linen snow;
     max-height:20vh;
     gap:1%;
     border: var(--border_test) magenta;
+    
   }
 
   :global(#showcase_title){
@@ -234,6 +243,8 @@ margin-top: 1em;
  scrollbar-color: linen snow;
   scrollbar-width:thin;
   padding-right: 20%;
+  
+  
  /** width: available;; /*modify to suit
   max-width:69%;
   height: 12vh; /*modify to suit
@@ -246,7 +257,7 @@ margin-top: 1em;
    /* column-width: 50%;
     column-count: 1;
     column-gap: 3%;*/
-    width:100%;
+
     
     border: var(--border_test) lime;
   }
@@ -276,12 +287,14 @@ font-family: monospace;
   padding-bottom:10vh;
   padding-left:2vw;
   padding-right:2vw;
+  width: 95vw;
 }
 
 .column {
   height:99vh;
     border: var(--border_test) grey
 }
+
 #about{
   position:relative;
   min-width:20vw;
@@ -316,8 +329,10 @@ border:var(--border_test) indigo}
   border-bottom: 1px solid black;
 }
 
+summary{margin-top:2ex;}
+
 #about_content{
-  margin-top: 3ex;
+  margin-top: 1ex;
   position:relative;
   width:100%;
   height:auto;
@@ -379,7 +394,7 @@ border:var(--border_test) indigo}
 }
 
 .project_wrapper:hover{
-  transform: scale(1.07);
+  transform: scale(1.05);
   transition: all ease-in-out .1s;
   z-index:10;
 }
@@ -396,6 +411,50 @@ border:var(--border_test) indigo}
   bottom:0%;
   border: var(--border_test) orange;
 }
+/* VERSION MOBILE */
 
+@media screen and (max-width: 100vh)
+{
+  #maincontainer{
+    position:relative;
+    flex-direction:column;
+  }
+
+  #about{
+    width:100%;
+    padding:10px;
+  }
+
+  #about_contact{
+    display:flex;
+    gap:1ex;
+    position:relative;
+    margin-top: 2ex;
+    margin-bottom: 1ex;
+
+  }
+  
+  #projects{
+    padding-top:1ex;
+    border-top: 1px solid black;
+    width:100%;
+  }
+  
+  #projects_container{
+    display:flex; 
+    flex-direction:row;
+    gap:1vw;
+    overflow-x: scroll;
+    scrollbar-color: linen snow;
+  scrollbar-width:thin;
+
+  }
+  
+  .projects_pic_container{
+    width:20vw;
+    height:20vw;
+  }
+  
+}
 
     </style>

@@ -1,7 +1,7 @@
 <div class="column" id="showcase">
-    
-    <img class="showcase" id="showcase_picture" src="../img/obscureprocess.jpg">
-
+    <div id="showcase_picture_wrapper">
+    <img class="showcase showcase_picture" src="../img/obscureprocess1.jpg" alt="Première et quatrième de couverture du fanzine Obscure Process">
+  </div>
     <div class="showcase" id="showcase_text">
         <h2 id="showcase_title">Obscure Process (2019)</h2>
        <div id="showcase_desc_wrapper">
@@ -19,5 +19,8 @@
 </div>
 
 <style>
-
+img{height:60vh;}
+  #showcase_picture_wrapper{
+    display:flex;justify-content:center;align-items:center;width:100%; }
+    .showcase_picture{border: 1px solid lightgrey; border-radius:1vh;}
   </style>

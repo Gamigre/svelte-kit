@@ -1,10 +1,10 @@
 <div class="column" id="showcase">
     <div id="showcase_picture_wrapper">
-    <img class="showcase" id="showcase_picture" src="../img/carreau_01.jpg" alt="Carreaux de céramiques ayant chacun un qr code en leur cntre">
-    <img class="showcase" id="showcase_picture" src="../img/carreau_02.jpg" alt=" Présentation de l'interface de dépot de souvenir">
-    <img class="showcase" id="showcase_picture" src="../img/carreau_03.jpg" alt="présentation de la navigation de l'application">
-    <img class="showcase" id="showcase_picture" src="../img/carreau_04.jpg" alt="carreau de céramique posé sur le vieux cabanon du jardin de ma grand-mère">
-    <img class="showcase" id="showcase_picture" src="../img/carreau_05.jpg" alt="capture d'écran du site en version desktop">
+    <img class="showcase showcase_picture" src="../img/carreau_01.jpg" alt="Carreaux de céramiques ayant chacun un qr code en leur cntre">
+    <img class="showcase showcase_picture" src="../img/carreau_02.jpg" alt=" Présentation de l'interface de dépot de souvenir">
+    <img class="showcase showcase_picture" src="../img/carreau_03.jpg" alt="présentation de la navigation de l'application">
+    <img class="showcase showcase_picture" src="../img/carreau_04.jpg" alt="carreau de céramique posé sur le vieux cabanon du jardin de ma grand-mère">
+    <img class="showcase showcase_picture" src="../img/carreau_05.jpg" alt="capture d'écran du site en version desktop">
   </div>
 
     <div class="showcase" id="showcase_text">

@@ -1,13 +1,13 @@
 <div class="column" id="showcase">
     <div id="showcase_picture_wrapper">
-        <img class="showcase" id="showcase_picture" src="../img/memoire_cover.jpg" alt="Carreaux de céramiques ayant chacun un qr code en leur cntre">
+        <img class="showcase showcase_picture" src="../img/memoire_cover.jpg" alt="Carreaux de céramiques ayant chacun un qr code en leur cntre">
 
-        <img class="showcase" id="showcase_picture" src="../img/memoire_sommaire.jpg" alt=" Présentation de l'interface de dépot de souvenir">
+        <img class="showcase showcase_picture" src="../img/memoire_sommaire.jpg" alt=" Présentation de l'interface de dépot de souvenir">
   
-        <img class="showcase" id="showcase_picture" src="../img/memoire_random.jpg" alt="présentation de la navigation de l'application">
+        <img class="showcase showcase_picture" src="../img/memoire_random.jpg" alt="présentation de la navigation de l'application">
     
     
-        <img class="showcase" id="showcase_picture" src="../img/memoire_texte.jpg" alt="carreau de céramique posé sur le vieux cabanon du jardin de ma grand-mère">
+        <img class="showcase showcase_picture" src="../img/memoire_texte.jpg" alt="carreau de céramique posé sur le vieux cabanon du jardin de ma grand-mère">
     
       </div>
 
@@ -25,7 +25,7 @@
     #showcase_picture_wrapper{
         background:black;
     }
-    #showcase_picture{
+    .showcase_picture{
         max-width:45%;
     }
 a{color:indianred;}

@@ -1,15 +1,12 @@
 <script lang="ts">
     import VideoPlayer from 'svelte-video-player';
     let timeDisplay = true;
-    let loop = true;
   </script>
   
  
 <div class="column" id="showcase">
     <div id="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
-
-        <VideoPlayer poster="../img/confinement_thumb.jpg" source="../vid/Projet_final_gobelins_corrigé_6s_crf25.mp4" color="tomato" controlsHeight="3em" {timeDisplay} {loop}/>
-
+        <VideoPlayer poster="../vid/Projet_final_gobelins_corrigé_6s_crf25-thumb.jpg" source="../vid/Projet_final_gobelins_corrigé_6s_crf25.mp4" color="tomato" controlsHeight="3em" {timeDisplay}/>
 </div>
 
     <div class="showcase" id="showcase_text">
@@ -22,5 +19,4 @@
 </div>
 
 <style>
-
   </style>
