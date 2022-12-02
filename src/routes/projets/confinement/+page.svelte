@@ -5,7 +5,7 @@
   
  
 <div class="column" id="showcase">
-    <div id="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
+    <div class="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
         <VideoPlayer poster="../vid/Projet_final_gobelins_corrigé_6s_crf25-thumb.jpg" source="../vid/Projet_final_gobelins_corrigé_6s_crf25.mp4" color="tomato" controlsHeight="3em" {timeDisplay}/>
 </div>
 

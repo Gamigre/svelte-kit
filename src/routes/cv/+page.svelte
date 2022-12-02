@@ -71,4 +71,8 @@ Portfolio: gregoire.broadcastingfuture.online	mail: g.gamichon@gmail.com
     padding-right:40px;
     overflow-x: hidden;
   }
+
+  @media screen and (max-width: 100vh)
+{#cv{font-size: 2.1vw;}
+}
 </style>

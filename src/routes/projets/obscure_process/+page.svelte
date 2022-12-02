@@ -21,6 +21,16 @@
 <style>
 img{height:60vh;}
   #showcase_picture_wrapper{
-    display:flex;justify-content:center;align-items:center;width:100%; }
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
     .showcase_picture{border: 1px solid lightgrey; border-radius:1vh;}
+
+    @media screen and (max-width: 100vh)
+
+{.showcase_picture{width: 97vw; height: auto;}
+  /***/
+}
   </style>

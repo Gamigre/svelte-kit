@@ -32,5 +32,12 @@
 </div>
 
 <style>
-  .showcase_picture{max-width:49%; border-radius:1em;}
+  .showcase_picture{max-width:48%; border-radius:0.5em;}
+
+  /* GERE LA TAILLE DES IMAGES EN MODE MOBILE*/
+
+  @media screen and (max-width: 100vh)
+{.showcase_picture{max-width: 95vw;}
+  /***/
+}
   </style>

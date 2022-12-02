@@ -5,18 +5,18 @@
     
         <div class="column" id="about">
     
-    <a href="/">
+    <a id="about_title" href="/">
             <div id="logo">
                 <div id=flower> <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 600 600"><g id="Logo_fleur" transform="scale(.55503)"><path d="M0 0h1080v1080H0z" style="fill:none"/><path id="tige" d="M402.349 52.516h88.493v364.081h-88.493z" transform="matrix(-1.11084 0 0 .73247 1036.09 631.373)"/><path id="fleur" d="m0-642.442-143.329 321.221-143.362-321.26-143.363 321.26-143.328-321.221c-101.348 66.42-166.033 167.314-166.033 280.302C-739.415-162.114-536.723.039-286.691.039c250.033 0 452.724-162.153 452.724-362.179 0-112.988-64.685-213.882-166.033-280.302Z" style="fill:tomato;fill-rule:nonzero" transform="translate(858.467 719.096) scale(1.11084)"/><path id="fDroit" d="M0-456.882c82.669 82.669 65.915 233.456-37.421 336.792C-140.758-16.754-291.544 0-374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(15 -3888.439 3910.388) scale(1.11084)"/><path id="fGauche" d="M0-456.882c-82.669 82.669-65.915 233.456 37.421 336.792C140.758-16.754 291.544 0 374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(-15 4428.428 -191.33) scale(1.11084)"/></g></svg></div>
     
                 
-                <div class="about" id="about_title"> Grégoire <br> Gamichon.</div>
+                <div class="about" id="about_name"> Grégoire <br> Gamichon.</div>
             </div>
 
-            <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique</i></div>
+            <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique <a id="about_apropos" href="/about/"> ⚘  À propos</a></i></div>
           </a>
 
-          <details open>
+          <details open id="about_details">
             <summary> Bonjour&thinsp;!</summary>
             <p class="about" id="about_content">Je suis Grégoire Gamichon, je suis designer graphique multimédia.<br>
               Mon travail se construit autour de la recherche d'une multitude de processus créatifs
@@ -170,34 +170,33 @@
 
     <style>
     :root {
-      
+      background-color:snow;
     --border_test: 0px solid;
 }
   /* css pour les composants de droite*/
 :global(#showcase){
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-    width:available;
-    width: 100%;
-    display:table-cell;
-    vertical-align: bottom; 
+    width:100%;
+   /* width: 100%;
+    display:table-cell; */
     border: var(--border_test) brown;
-    padding-bottom:10vh;
   }
 
   :global(#showcase_picture_wrapper){
-    max-width:100%;
+    border: var(--border_test) rebeccapurple;
+    width:available;
   max-height:80vh;
   overflow-x:hidden;
 display:flex;
 flex-wrap: wrap;  
 gap:2em;
 justify-content:space-evenly;
-padding-bottom:1em;
-padding-right:1em;
+margin-bottom:1em;
+margin-right:1em;
 scrollbar-color: linen snow;
   scrollbar-width:thin;
+
   }
   
 /*
@@ -222,6 +221,7 @@ scrollbar-color: linen snow;
     max-height:20vh;
     gap:1%;
     border: var(--border_test) magenta;
+    width: 100%;
     
   }
 
@@ -234,7 +234,6 @@ scrollbar-color: linen snow;
 :global(#showcase_desc_wrapper){
 border: var(--border_test) red;
 overflow-y: scroll;
-max-height:20vh;
 margin-top: 1em;
  margin-bottom:2em;
  padding-left: 1%;
@@ -257,8 +256,6 @@ margin-top: 1em;
    /* column-width: 50%;
     column-count: 1;
     column-gap: 3%;*/
-
-    
     border: var(--border_test) lime;
   }
 
@@ -287,7 +284,6 @@ font-family: monospace;
   padding-bottom:10vh;
   padding-left:2vw;
   padding-right:2vw;
-  width: 95vw;
 }
 
 .column {
@@ -302,17 +298,22 @@ font-family: monospace;
   height:100%;
   border: var(--border_test) green}
 
+  #about_title{   
+    border: var(--border_test) mediumaquamarine;
+    all:unset;
+}
 
 #logo{display:flex;
-border: var(--border_test) indigo;
+border: var(--border_test) pink;
   gap:0.3vw;
+  margin-top: 0px;
 }
 
 #flower{
 width:3vw;
 border:var(--border_test) indigo}
 
-#about_title{ 
+#about_name{ 
   border: var(--border_test) darkkhaki;
   line-height: 107%;
   font-size:1.5vw;
@@ -328,6 +329,8 @@ border:var(--border_test) indigo}
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+
+#about_apropos{display:none}
 
 summary{margin-top:2ex;}
 
@@ -415,15 +418,79 @@ summary{margin-top:2ex;}
 
 @media screen and (max-width: 100vh)
 {
+:global(#showcase){ 
+  width: 97vw;
+  padding-bottom: 1vh;
+  flex-direction: column-reverse;
+}
+
+:global(#showcase_text){
+  max-height: fit-content;
+flex-direction: column;
+}
+
+:global(#showcase_title){
+width: 95vw; }
+
+:global(#showcase_desc_wrapper){
+  all: unset;
+  max-width:100vw;
+  margin-bottom: 2em;
+  margin-right: 1em;
+  margin-top: -0.5em;;
+
+}
+
+:global(#showcase_picture_wrapper){
+overflow: visible;
+width:98%;
+}
+
+
+
   #maincontainer{
     position:relative;
     flex-direction:column;
+    padding:unset;
+    margin:unset;
+    width:98vw;
+    gap:2px
   }
 
   #about{
-    width:100%;
-    padding:10px;
+padding:unset;
+    display:flex;
+    width:98vw;
+    
   }
+
+  #about_title{
+    display:flex; 
+    justify-content: flex-start;
+    gap: 1.5vw;;
+    width:100vw;
+  }
+
+ #logo{max-width:25vw;  
+   gap:1vw;
+height: 6vw;
+border-right:1px solid black;
+padding-right:1vw;}
+ #flower{width:6vw}
+ #about_name{font-size: 3vw;}
+
+ #about_tagline{
+  padding: unset;
+  font-size: 2.65vw;
+  align-self: center ;
+justify-self: end;
+border:0px solid mediumpurple;
+}
+
+#about_apropos{display:inline; color:indianred; text-decoration: underline solid;}
+
+ #about_details{display:none;}
+
 
   #about_contact{
     display:flex;
@@ -431,28 +498,39 @@ summary{margin-top:2ex;}
     position:relative;
     margin-top: 2ex;
     margin-bottom: 1ex;
+    padding-left: 2ex;
+    padding-right: 2ex;
 
   }
   
   #projects{
-    padding-top:1ex;
-    border-top: 1px solid black;
+    padding:unset;
+    margin-top: 5px;
+margin-left:-2vw;
+padding-left:2vw;
+    padding-top: 5px;
     width:100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
   }
   
   #projects_container{
     display:flex; 
     flex-direction:row;
-    gap:1vw;
+    gap:1.6vw;
     overflow-x: scroll;
     scrollbar-color: linen snow;
   scrollbar-width:thin;
 
   }
-  
+  .projects_pic_name{
+    display:block;
+    line-height: 1em;
+    font-size: 0.8em;}
   .projects_pic_container{
-    width:20vw;
-    height:20vw;
+    width:15vw;
+    height:15vw;
   }
   
 }

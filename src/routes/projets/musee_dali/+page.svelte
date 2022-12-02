@@ -7,7 +7,7 @@
 
 
 <div class="column" id="showcase">
-  <div id="showcase_picture_wrapper" style="max-width: 80vh; margin: 0 auto;">
+  <div id="showcase_picture_wrapper" >
       <div class="showcase_picture">
       <VideoPlayer poster="../vid/persistance_dali-thumb.jpg" source="../vid/persistance_dali.mp4" width="9" height="16" color="tomato"  controlsHeight="3em" {timeDisplay} {loop}/>
       </div>
@@ -28,8 +28,14 @@
 </div>
 
 <style>
-  #showcase_picture_wrapper{display:flex; width:100%;}
+  #showcase_picture_wrapper{display:flex; width:100%; max-width: 80vh; margin: 0 auto;}
   .showcase_picture{width: 19vw; padding:3px;
   border:1px indianred solid; border-radius:10px;}
 
+/* GERE LA TAILLE DES VIDEOS VERTICALES EN MODE MOBILE*/
+
+  @media screen and (max-width: 100vh)
+{.showcase_picture{width: 85vw;}
+  /***/
+}
 </style>
