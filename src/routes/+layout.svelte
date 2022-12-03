@@ -1,3 +1,14 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Bonjour !</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta property="og:image" content="favicon.png">
+<meta property="og:title" content="Grégoire Gamichon" />
+<meta property="og:description" content="Graphic/Motion designer sympa !" />
+</head>
+
 <main>
     <div id="header"></div>
     
