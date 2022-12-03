@@ -1,6 +1,6 @@
-<details open id="about_details">
-    <summary> Bonjour&thinsp;!</summary>
-    <p class="about" id="about_content">Je suis Grégoire Gamichon, je suis designer graphique multimédia.<br>
+
+    
+    <p class="about" id="about_content"> <br>Bonjour&thinsp;! Je suis Grégoire Gamichon, je suis designer graphique multimédia.<br>
       Mon travail se construit autour de la recherche d'une multitude de processus créatifs
        allant des outils conventionels de design graphique au creative coding en passant 
        par l'animation, la 3D, l'illustration, les outils de prototypage rapide, 
@@ -15,4 +15,26 @@
       <a style="color:indianred;"  href="https://instagr.am/Gamigre" target="_blank" rel="noopener noreferrer">instagram</a>
         
     </div>
-</details>
+
+    <style>
+      #about_contact{
+  position:relative;
+  line-height:110%;
+  margin:0 auto;
+  margin-top:3em;
+  width: 60vw;
+  height:available;
+  border: var(--border_test) orange;
+  font-size: 1em;
+  padding: 1em;
+  border: 1px solid indianred;
+  background-color: snow;
+  border-radius: 0.5ex;;
+  filter: drop-shadow(-5px 5px 0px indianred);
+  transition: all ease-out 0.3s;
+}
+#about_contact:hover{
+  filter: drop-shadow(-10px 10px 0px indianred);
+}
+    </style>
+

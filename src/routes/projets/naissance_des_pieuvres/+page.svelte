@@ -5,7 +5,7 @@
 </script>
 
 <div class="column" id="showcase">
-  <div class="showcase_picture_wrapper" style=" width:100%; margin: 0 auto;">
+  <div class="showcase_picture_wrapper" >
       <VideoPlayer poster="../vid/generique-thumb.jpg" source="../vid/generique_crf28.mp4" color="tomato" controlsHeight="3em" {timeDisplay}/>
 </div>
 
@@ -19,5 +19,6 @@
 </div>
 
 <style>
+
 a{color:indianred}
 </style>

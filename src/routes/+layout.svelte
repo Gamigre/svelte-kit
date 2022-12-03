@@ -10,13 +10,13 @@
                 <div id=flower> <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 600 600"><g id="Logo_fleur" transform="scale(.55503)"><path d="M0 0h1080v1080H0z" style="fill:none"/><path id="tige" d="M402.349 52.516h88.493v364.081h-88.493z" transform="matrix(-1.11084 0 0 .73247 1036.09 631.373)"/><path id="fleur" d="m0-642.442-143.329 321.221-143.362-321.26-143.363 321.26-143.328-321.221c-101.348 66.42-166.033 167.314-166.033 280.302C-739.415-162.114-536.723.039-286.691.039c250.033 0 452.724-162.153 452.724-362.179 0-112.988-64.685-213.882-166.033-280.302Z" style="fill:tomato;fill-rule:nonzero" transform="translate(858.467 719.096) scale(1.11084)"/><path id="fDroit" d="M0-456.882c82.669 82.669 65.915 233.456-37.421 336.792C-140.758-16.754-291.544 0-374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(15 -3888.439 3910.388) scale(1.11084)"/><path id="fGauche" d="M0-456.882c-82.669 82.669-65.915 233.456 37.421 336.792C140.758-16.754 291.544 0 374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(-15 4428.428 -191.33) scale(1.11084)"/></g></svg></div>
     
                 
-                <div class="about" id="about_name"> Grégoire <br> Gamichon.</div>
+                <div id="about_name"> Grégoire <br> Gamichon.</div>
             </div>
 
             <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique <a id="about_apropos" href="/about/"> ⚘  À propos</a></i></div>
           </a>
 
-<br>
+        <div id="about_desktop_bio">
             <p class="about" id="about_content"> Bonjour&thinsp;! Je suis Grégoire Gamichon, je suis designer graphique multimédia.<br>
               Mon travail se construit autour de la recherche d'une multitude de processus créatifs
                allant des outils conventionels de design graphique au creative coding en passant 
@@ -32,6 +32,7 @@
               <a style="color:indianred;"  href="https://instagr.am/Gamigre" target="_blank" rel="noopener noreferrer">instagram</a>
                 
             </div>
+        </div>
         </div>
         
     
@@ -175,7 +176,7 @@
 :global(#showcase){
   display: flex;
   flex-direction: column;
-    width:100%;
+    width:61.5vw;
    /* width: 100%;
     display:table-cell; */
     border: var(--border_test) brown;
@@ -259,9 +260,7 @@ margin-top: 1em;
 
   /* css pour le site statique*/
 
-a{
-  text-decoration: none; 
-}
+
 a:visited{color:black}
 :global(p){
   margin:unset;
@@ -276,7 +275,7 @@ font-family: monospace;
   position:fixed;
   display:flex;
   justify-content:flex-start;
-  gap:30px;
+  gap:1.5vw;
   border: var(--border_test) pink;
   height:99%;
   padding-bottom:10vh;
@@ -343,9 +342,19 @@ summary{margin-top:2ex;}
 #about_contact{
   position:absolute;
   line-height:130%;
-  bottom:0%;
+  bottom:2vw;
   height:available;
   border: var(--border_test) orange;
+  font-size: 1em;
+  padding: 1em;
+  border: 1px solid indianred;
+  background-color: snow;
+  border-radius: 0.5ex;;
+  filter: drop-shadow(-5px 5px 0px indianred);
+  transition: all ease-out 0.3s;
+}
+#about_contact:hover{
+  filter: drop-shadow(-10px 10px 0px indianred);
 }
 
 #projects{
@@ -363,6 +372,11 @@ summary{margin-top:2ex;}
   scrollbar-width:thin;
 
 }
+
+#projects a{
+  text-decoration: none; 
+}
+
 .projects{
   padding:1px;
   
@@ -487,9 +501,9 @@ border:0px solid mediumpurple;
 
 #about_apropos{display:inline; color:indianred; text-decoration: underline solid;}
 
- #about_details{display:none;}
+ #about_desktop_bio{display:none;}
 
-
+/*
   #about_contact{
     display:flex;
     gap:1ex;
@@ -499,7 +513,7 @@ border:0px solid mediumpurple;
     padding-left: 2ex;
     padding-right: 2ex;
 
-  }
+  }*/
   
   #projects{
     padding:unset;
