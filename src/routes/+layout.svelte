@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>Bonjour !</title>
+  <title>Grégoire Gamichon - Design Graphique</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
@@ -18,13 +18,35 @@
     
     <a id="about_title" href="/">
             <div id="logo">
-                <div id=flower> <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" viewBox="0 0 600 600"><g id="Logo_fleur" transform="scale(.55503)"><path d="M0 0h1080v1080H0z" style="fill:none"/><path id="tige" d="M402.349 52.516h88.493v364.081h-88.493z" transform="matrix(-1.11084 0 0 .73247 1036.09 631.373)"/><path id="fleur" d="m0-642.442-143.329 321.221-143.362-321.26-143.363 321.26-143.328-321.221c-101.348 66.42-166.033 167.314-166.033 280.302C-739.415-162.114-536.723.039-286.691.039c250.033 0 452.724-162.153 452.724-362.179 0-112.988-64.685-213.882-166.033-280.302Z" style="fill:tomato;fill-rule:nonzero" transform="translate(858.467 719.096) scale(1.11084)"/><path id="fDroit" d="M0-456.882c82.669 82.669 65.915 233.456-37.421 336.792C-140.758-16.754-291.544 0-374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(15 -3888.439 3910.388) scale(1.11084)"/><path id="fGauche" d="M0-456.882c-82.669 82.669-65.915 233.456 37.421 336.792C140.758-16.754 291.544 0 374.213-82.669L0-456.882Z" style="fill-rule:nonzero" transform="rotate(-15 4428.428 -191.33) scale(1.11084)"/></g></svg></div>
+                <div id=flower> <svg id="flower_container" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 700" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                  
+                  <g id="flower_origin" transform="translate(300.571908,643.784781)">
+                    <g id="flower_scale" transform="scale(0.555026,0.555026)">
+                      <g transform="translate(-540.515173,-1052.840624)" clip-rule="evenodd">
+                      <g id="tige_rotation" transform="translate(540.515217,1026.851337) rotate(0)">
+                        <g id="tige_scale" transform="scale(-1.11084,0.732467)">
+                        <g transform="translate(-446.126126,-416.596999)" clip-rule="evenodd">
+                              <rect width="88.493" height="364.081" rx="0" ry="0" transform="translate(402.349 52.516)" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"/>
+                            </g> </g> </g>
+                        <g id="petale_rotation" transform="translate(540.515217,809.474127) rotate(0)">
+                          <g id="petale_scale" transform="scale(1.11084,1.11084)">
+                            <g transform="translate(286.690979,-0.039001)" clip-rule="evenodd"><path d="M0,-642.442l-143.329,321.221-143.362-321.26-143.363,321.26-143.328-321.221c-101.348,66.42-166.033,167.314-166.033,280.302c0,200.026,202.692,362.179,452.724,362.179c250.033,0,452.724-162.153,452.724-362.179c0-112.988-64.685-213.882-166.033-280.302Z" clip-rule="evenodd" fill="#f04d2b" stroke-linejoin="round" stroke-miterlimit="2"/>
+                            </g>         
+                            </g>
+                            </g>
+                        <rect width="1080" height="1080" rx="0" ry="0" clip-rule="evenodd" fill="none" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"/>
+                        <g id="feuille_droite_rotation" transform="translate(502.248352,1035.27663) rotate(14.999961)">
+                          <g transform="scale(1.110841,1.110841) translate(373.477933,81.380995)" clip-rule="evenodd"><path d="M0,-456.882c82.669,82.669,65.915,233.456-37.421,336.792C-140.758,-16.754,-291.544,0,-374.213,-82.669L0,-456.882Z" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"/>
+                          </g> 
+                          </g>
+                        <g id="feuille_gauche_rotation" transform="translate(577.969138,1036.272955) rotate(-14.999961)">
+                          <g transform="scale(1.110841,1.110841) translate(-372.969307,82.276906)" clip-rule="evenodd"><path d="M0,-456.882c-82.669,82.669-65.915,233.456,37.421,336.792C140.758,-16.754,291.544,0,374.213,-82.669L0,-456.882Z" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"/></g></g></g></g></g></svg></div>
     
                 
                 <div id="about_name"> Grégoire <br> Gamichon.</div>
             </div>
 
-            <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique <a id="about_apropos" href="/about/"> ⚘  À propos</a></i></div>
+            <div id="about_tagline"><i>Designer graphique ⚘ artiste numérique <br><a id="about_apropos" href="/about/"> ⚘  À propos</a></i></div>
           </a>
 
         <div id="about_desktop_bio">
@@ -120,6 +142,14 @@
             <img class="projects_pic" src="/img/nation_thumb.jpg" alt="Miniature représentant une frame de ma vidéo sur la réalité augmentée et le machine learning"> 
         </div>
         <span class="projects_pic_name" >I.A. Nation</span>
+      </div></a>
+
+      <a id="p16" href="/projets/gg_fest">
+        <div class="project_wrapper">
+        <div class="projects_pic_container"  >
+            <img class="projects_pic" src="/img/gg_fest_thumb.jpg" alt="Miniature représentant le logo du gg_festival"> 
+        </div>
+        <span class="projects_pic_name" >GG_Fest</span>
       </div></a>
 
       <a id="p10" href="/projets/obscure_process">
@@ -315,9 +345,11 @@ font-family: monospace;
 border: var(--border_test) pink;
   gap:0.3vw;
   margin-top: 0px;
+  /*correction du logo animé*/max-height:3.5vw;
 }
 
 #flower{
+  /*correction du logo animé*/ margin-top:-0.5vw;;
 width:3vw;
 border:var(--border_test) indigo}
 
@@ -497,17 +529,21 @@ padding:unset;
  #logo{max-width:25vw;  
    gap:1vw;
 height: 6vw;
+max-height: 6vw;
 border-right:1px solid black;
 padding-right:1vw;}
- #flower{width:6vw}
+
+ #flower{width:6vw; margin-top:-1vw;}
  #about_name{font-size: 3vw;}
 
  #about_tagline{
   padding: unset;
-  font-size: 2.65vw;
+  font-size: 2.5vw;
   align-self: center ;
 justify-self: end;
+max-height:6vw;
 border:0px solid mediumpurple;
+margin-top:-1vw;
 }
 
 #about_apropos{display:inline; color:indianred; text-decoration: underline solid;}
@@ -556,6 +592,140 @@ padding-left:2vw;
     height:15vw;
   }
   
+}
+
+
+/**ANIMATION LOGO*/
+
+#flower_origin {
+  animation: flower_origin_anim 10000ms linear 1s 2 normal forwards} 
+  @keyframes flower_origin_anim { 
+    0% {transform: translate(300.571908px,643.784781px)} 
+    81% {transform: translate(300.571908px,643.784781px);animation-timing-function: cubic-bezier(0,0,0,0.995)} 
+    86% {transform: translate(300.571908px,609.63988px);animation-timing-function: cubic-bezier(0.71,0.005,1,1)} 
+    90% {transform: translate(300.571908px,643.784781px)} 
+    100% {transform: translate(300.571908px,643.784781px)}} 
+  
+  #flower_scale {
+    animation: flower_scale_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes flower_scale_anim { 
+    0% {transform: scale(0.555026,0.555026)} 
+    75% {transform: scale(0.555026,0.555026);animation-timing-function: cubic-bezier(0,0,0.58,1)} 
+    80% {transform: scale(0.555026,0.515673);animation-timing-function: cubic-bezier(0,0,0.26,0.995)} 
+    84% {transform: scale(0.502568,0.594431);animation-timing-function: cubic-bezier(0.71,0.005,1,1)} 
+    88% {transform: scale(0.531848,0.555026);animation-timing-function: cubic-bezier(0,0,0.58,1)} 
+    93% {transform: scale(0.555026,0.523175);animation-timing-function: cubic-bezier(0,0,0.58,1)} 
+    95% {transform: scale(0.555026,0.555026)} 
+    100% {transform: scale(0.555026,0.555026)}} 
+  
+  #tige_rotation {
+    animation: tige_rotation_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes tige_rotation_anim { 
+    0% {transform: translate(540.515217px,1026.851337px) rotate(0deg)} 
+    16% {transform: translate(540.515217px,1026.851337px) rotate(0deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: translate(540.515217px,1026.851337px) rotate(-7.945006deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: translate(540.515217px,1026.851337px) rotate(0deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: translate(540.515217px,1026.851337px) rotate(6.112685deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: translate(540.515217px,1026.851337px) rotate(0deg)} 
+    100% {transform: translate(540.515217px,1026.851337px) rotate(0deg)}} 
+  
+  #tige_scale {
+    animation: tige_scale_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes tige_scale_anim { 
+    0% {transform: scale(-1.11084,0.732467)} 
+    16% {transform: scale(-1.11084,0.732467);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: scale(-0.9,0.732467);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: scale(-1.11084,0.732467);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: scale(-0.9,0.732467);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: scale(-1.11084,0.732467)} 
+    100% {transform: scale(-1.11084,0.732467)}} 
+  
+  #petale_rotation {
+    animation: petale_rotation_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes petale_rotation_anim { 
+    0% {transform: translate(540.515217px,809.474127px) rotate(0deg)} 
+    16% {transform: translate(540.515217px,809.474127px) rotate(0deg); animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: translate(540.515217px,809.474127px) rotate(-8.388552deg); animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: translate(540.515217px,809.474127px) rotate(0deg); animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: translate(540.515217px,809.474127px) rotate(9.6076deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: translate(540.515217px,809.474127px) rotate(0deg)} 
+    100% {transform: translate(540.515217px,809.474127px) rotate(0deg)}} 
+  
+  #petale_scale {
+    animation: petale_scale_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes petale_scale_anim { 
+    0% {transform: scale(1.11084,1.11084)} 
+    16% {transform: scale(1.11084,1.11084);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: scale(0.942688,1.200091);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: scale(1.11084,1.11084);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: scale(0.942688,1.20009);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: scale(1.11084,1.11084)} 
+    100% {transform: scale(1.11084,1.11084)}} 
+  
+  #feuille_droite_rotation {
+    animation: feuille_droite_rotation_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes feuille_droite_rotation_anim { 
+    0% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg)} 
+    16% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: translate(502.248352px,1035.27663px) rotate(5.7deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: translate(502.248352px,1035.27663px) rotate(5.7deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg);animation-timing-function: cubic-bezier(0.42,0,0.58,1)} 
+    75% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.535,1)} 
+    80% {transform: translate(502.248352px,1035.27663px) rotate(17deg);animation-timing-function: cubic-bezier(0.665,0.005,0.535,1)} 
+    84% {transform: translate(502.248352px,1035.27663px) rotate(10deg);animation-timing-function: cubic-bezier(0.795,-0.01,0.58,1)} 
+    93% {transform: translate(502.248352px,1035.27663px) rotate(19deg)} 
+    95% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg)} 
+    100% {transform: translate(502.248352px,1035.27663px) rotate(14.999961deg)}} 
+  
+  #feuille_gauche_rotation {
+    animation: feuille_gauche_rotation_anim 10000ms linear 1s 2 normal forwards}
+  @keyframes feuille_gauche_rotation_anim { 
+    0% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg)} 
+    16% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    26% {transform: translate(577.969138px,1036.272955px) rotate(-5.7deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    36% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    46% {transform: translate(577.969138px,1036.272955px) rotate(-5.7deg);animation-timing-function: cubic-bezier(0.665,0.005,0.32,1)} 
+    56% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg);animation-timing-function: cubic-bezier(0.42,0,0.58,1)} 
+    75% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg);animation-timing-function: cubic-bezier(0.665,0.005,0.535,1)} 
+    80% {transform: translate(577.969138px,1036.272955px) rotate(-17deg);animation-timing-function: cubic-bezier(0.665,0.005,0.535,1)} 
+    84% {transform: translate(577.969138px,1036.272955px) rotate(-10deg);animation-timing-function: cubic-bezier(0.795,-0.01,0.58,1)} 
+    93% {transform: translate(577.969138px,1036.272955px) rotate(-19deg)} 95% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg)} 
+    100% {transform: translate(577.969138px,1036.272955px) rotate(-14.999961deg)}}
+
+    #flower_container{
+  transform-origin:bottom; 
+animation: flower_wind 60s linear 22s infinite normal forwards; }
+@keyframes flower_wind{
+  0% {transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  1% {transform:skew(5deg, 0deg);}
+  2%{transform:skew(6deg, 0deg);animation-timing-function:cubic-bezier(.52,0,.19,.99)}
+  3%{transform:skew(0deg, 0deg);}
+  3.5%{transform:skew(2deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  5%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  10%{transform:skew(-2deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  15%{transform:skew(5deg, -2deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  20%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  25%{transform:skew(5deg, -2deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  35%{transform:skew(-5deg, 2deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  40%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.35,0,.06,1)}
+  41%{transform:skew(8deg, 0deg);}
+  41.5%{transform:skew(7deg, 0deg); animation-timing-function:cubic-bezier(.35,0,.06,1)}
+  42%{transform:skew(8deg, 0deg);animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  43%{transform:skew(3deg, 0deg);animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  43.5%{transform:skew(8.1deg, 0deg);animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  43.8%{transform:skew(7.5deg, 0deg);animation-timing-function:cubic-bezier(1,0,.75,1);}
+  44.1%{transform:skew(8.1deg, 0deg);animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+  44.4%{transform:skew(7deg, 0deg);animation-timing-function:cubic-bezier(1,0,.75,1);}
+  46%{transform:skew(-1deg, 0deg);animation-timing-function:cubic-bezier(.64,-0.01,.2,1);}
+  47%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.35,0,.06,1)}
+ 50%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.35,0,.06,1)}
+ 60%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+ 63%{transform:skew(3deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+ 66%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+ 85%{transform:skew(2deg, -1deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+ 87%{transform:skew(0deg, 0deg); animation-timing-function:cubic-bezier(.52,0,.19,.99);}
+ 100% {transform:skew(0deg, 0deg);}
 }
 
     </style>
