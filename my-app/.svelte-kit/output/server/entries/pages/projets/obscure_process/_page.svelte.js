@@ -10,7 +10,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           Chaque num\xE9ro met \xE0 l\u2019honneur un process sur une feuille A4 recto verso,
           \xE0 imprimer et plier sous la forme d\u2019un carnet \xE0
           rabats. Chaque \xE9dition offre du contenu en r\xE9alit\xE9
-          augment\xE9e en plus de textes, interviews, copies d\u2019\u0153uvres, etc.<br> <br>Disponible <a style="${"color:indianred;"}" href="${"http://gregoire.broadcastingfuture.online/obscureprocessmay19"}">ici !
+          augment\xE9e en plus de textes, interviews, copies d\u2019\u0153uvres, etc.<br> <br>Disponible <a style="${"color:tomato;"}" href="${"http://gregoire.broadcastingfuture.online/obscureprocessmay19"}">ici !
         </a></p></div></div>
 </div>`;
 });

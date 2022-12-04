@@ -20,5 +20,5 @@
 </div>
 
 <style>
-  a{color:indianred;}
+  a{color:tomato;}
   </style>

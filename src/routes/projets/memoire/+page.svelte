@@ -28,5 +28,5 @@
     .showcase_picture{
         max-width:45%;
     }
-a{color:indianred;}
+a{color:tomato;}
   </style>

@@ -7,8 +7,8 @@
         <h2 id="showcase_title">GG_Fest (2019)</h2>
        <div id="showcase_desc_wrapper">
         <p id="showcase_desc">Le festival étudiant dédié à la culture pop, aux jeux de rôles et aux jeux vidéos m'a fait confiance pour réaliser son affiche et son logo. <br> 
-          Chaque thématique du festival est représentée sous la forme d'icones en pixel-art, le tout assemblé comme des <i>tiles</i> d'un rpg old-school. 
-          <br> Avec <a style="color:indianred;" href="https://instagr.am/vic_hoo">Victoria Hoogstoel</a>.
+          Chaque thématique du festival est représentée sous la forme d'icônes en pixel-art, le tout assemblé comme des <i>tiles</i> d'un rpg old-school. 
+          <br> Avec <a style="color:tomato;" href="https://instagr.am/vic_hoo">Victoria Hoogstoel</a>.
         </p>
          </div>
     </div>

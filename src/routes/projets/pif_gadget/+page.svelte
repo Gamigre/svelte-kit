@@ -28,7 +28,7 @@
 <style>
     #showcase_picture_wrapper{display:flex; width:100%; max-width: 80vh; margin: 0 auto;}
     .showcase_picture{width: 19vw; padding:3px;
-    border:1px indianred solid; border-radius:10px;}
+    border:1px tomato solid; border-radius:10px;}
   
   /* GERE LA TAILLE DES VIDEOS VERTICALES EN MODE MOBILE*/
   

@@ -30,7 +30,7 @@
                             </g> </g> </g>
                         <g id="petale_rotation" transform="translate(540.515217,809.474127) rotate(0)">
                           <g id="petale_scale" transform="scale(1.11084,1.11084)">
-                            <g transform="translate(286.690979,-0.039001)" clip-rule="evenodd"><path d="M0,-642.442l-143.329,321.221-143.362-321.26-143.363,321.26-143.328-321.221c-101.348,66.42-166.033,167.314-166.033,280.302c0,200.026,202.692,362.179,452.724,362.179c250.033,0,452.724-162.153,452.724-362.179c0-112.988-64.685-213.882-166.033-280.302Z" clip-rule="evenodd" fill="#f04d2b" stroke-linejoin="round" stroke-miterlimit="2"/>
+                            <g transform="translate(286.690979,-0.039001)" clip-rule="evenodd"><path d="M0,-642.442l-143.329,321.221-143.362-321.26-143.363,321.26-143.328-321.221c-101.348,66.42-166.033,167.314-166.033,280.302c0,200.026,202.692,362.179,452.724,362.179c250.033,0,452.724-162.153,452.724-362.179c0-112.988-64.685-213.882-166.033-280.302Z" clip-rule="evenodd" fill="tomato" stroke-linejoin="round" stroke-miterlimit="2"/>
                             </g>         
                             </g>
                             </g>
@@ -55,14 +55,14 @@
                allant des outils conventionels de design graphique au creative coding en passant 
                par l'animation, la 3D, l'illustration, les outils de prototypage rapide, 
                la céramique, etc. Je suis depuis déjà bien longtemps passionné par l'image, le son, la vidéo et toutes les techniques de création qui les entourent
-               <br><br>Toujours à la recherche de nouvelles méthodes pour refaçonner le monde à ma manière, vous pouvez compter sur moi pour vous aider à trouver de quoi faire cligner vos mirettes. <br>N'hésitez pas à m'envoyer un <a style="color:indianred; text-decoration:underline" href="mailto:g.gamichon@gmail.com">mail</a> &#8239;!</p>
+               <br><br>Toujours à la recherche de nouvelles méthodes pour refaçonner le monde à ma manière, vous pouvez compter sur moi pour vous aider à trouver de quoi faire cligner vos mirettes. <br>N'hésitez pas à m'envoyer un <a style="color:tomato; text-decoration:underline" href="mailto:g.gamichon@gmail.com">mail</a> &#8239;!</p>
     
     
             <div class="about" id="about_contact">
-              <a style="color:indianred;" href="/cv">cv<span style="opacity:0">ici !</span>  </a> <br>
-              <a style="color:indianred;" href="mailto:g.gamichon@gmail.com">g.gamichon@gmail.com</a><br>
-              <a style="color:indianred;"  href="https://twitter.com/Gamigre" target="_blank" rel="noopener noreferrer">twitter</a> <br>
-              <a style="color:indianred;"  href="https://instagr.am/Gamigre" target="_blank" rel="noopener noreferrer">instagram</a>
+              <a style="color:tomato;" href="/cv">cv<span style="opacity:0">ici !</span>  </a> <br>
+              <a style="color:tomato;" href="mailto:g.gamichon@gmail.com">g.gamichon@gmail.com</a><br>
+              <a style="color:tomato;"  href="https://twitter.com/Gamigre" target="_blank" rel="noopener noreferrer">twitter</a> <br>
+              <a style="color:tomato;"  href="https://instagr.am/Gamigre" target="_blank" rel="noopener noreferrer">instagram</a>
                 
             </div>
         </div>
@@ -372,7 +372,7 @@ border:var(--border_test) indigo}
 
 #about_apropos{display:none}
 
-summary{margin-top:2ex;}
+/*summary{margin-top:2ex;}*/
 
 #about_content{
   margin-top: 1ex;
@@ -390,14 +390,14 @@ summary{margin-top:2ex;}
   border: var(--border_test) orange;
   font-size: 1em;
   padding: 1em;
-  border: 1px solid indianred;
+  border: 1px solid tomato;
   background-color: snow;
   border-radius: 0.5ex;;
-  filter: drop-shadow(-5px 5px 0px indianred);
+  filter: drop-shadow(-5px 5px 0px tomato);
   transition: all ease-out 0.3s;
 }
 #about_contact:hover{
-  filter: drop-shadow(-10px 10px 0px indianred);
+  filter: drop-shadow(-10px 10px 0px tomato);
 }
 
 #projects{
@@ -433,7 +433,7 @@ summary{margin-top:2ex;}
 } */
 .project_wrapper{
   position:relative;
-    border: var(--border_test) indianred;
+    border: var(--border_test) tomato;
     transition: all ease-in-out .1s;
   margin-bottom:1em;    
 }
@@ -546,7 +546,7 @@ border:0px solid mediumpurple;
 margin-top:-1vw;
 }
 
-#about_apropos{display:inline; color:indianred; text-decoration: underline solid;}
+#about_apropos{display:inline; color:tomato; text-decoration: underline solid;}
 
  #about_desktop_bio{display:none;}
 

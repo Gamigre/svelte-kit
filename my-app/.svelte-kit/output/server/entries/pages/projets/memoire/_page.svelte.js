@@ -1,7 +1,7 @@
 import { c as create_ssr_component } from "../../../../chunks/index.js";
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "a.svelte-16t8mts{color:indianred}",
+  code: "a.svelte-16t8mts{color:tomato}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
